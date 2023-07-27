@@ -1,9 +1,19 @@
+body h1{background-color:black;
+    color:yellow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+}
 body {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
+    font-weight:bold;
     padding: 20px;
+    text-align:center;
 }
 
 h1 {
@@ -11,10 +21,25 @@ h1 {
     text-align: center;
 }
 
-#big_div {
+.big_div {
     border: 3px solid 2E549B; /* hex value */
     margin: 30px;
-    padding: 20px;
+    border:3px solid #30559d;
+    padding: 10px;
+}
+.big_div p{
+    font-size:15px;
+    text-align:left;
+}
+.big_div .pokemon_name{
+    /* stackoverflow.com/questions/9198327/apply-css-rules-to-a-nested-class-inside-a-div */
+    font-size:30px;
+    text-align:center;
+}
+.sub_div p{
+    font-size:20px;
+    font-weight:lighter;
+    align-content:start;
 }
 
 .pokemon_name {
@@ -25,6 +50,14 @@ h1 {
 }
 .sub_div {
     display: flex;
+    padding:10px;
+    text-align:left;
+}
+.sub_div img{
+    width:250px;
+}
+.sub_div p{
+
 }
 
 img {
@@ -34,5 +67,6 @@ img {
 
 #special {
     font-weight: bold;
+    color:yellow; 
     color: 255, 203, 5; /* rgb value */
 }
